@@ -1,0 +1,12 @@
+* {
+  /* So 100% means 100% */
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  background-color: #ccc;
+}
+
+#root {
+  height: 100%;
+}
