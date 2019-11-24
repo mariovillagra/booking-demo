@@ -1,3 +1,16 @@
 .sideBar {
-  background-color: #061750;
+  height: 100%;
+  margin: 5px;
+}
+
+.title {
+  height: 30%;
+}
+
+.title h1 {
+  text-align: center;
+}
+
+.menu {
+  margin-top: 20px;
 }

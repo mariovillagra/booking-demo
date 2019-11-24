@@ -7,17 +7,25 @@ import Icon from '@mdi/react'
 import { mdiCalendarClock } from '@mdi/js'
 
 import styles from './SideBar.module.css'
-console.log(styles)
 
 const SideBar = ({ links, handleItemClick, title }) => (
-  // <Container fluid style={{ height: '100%' }}>
-  <Row style={{ height: '100%' }}>
-    <Col className='bg-dark' md='3'>
-        Some text
+
+  <Row className={styles.sideBar}>
+    <Col>
+      <Row className={`justify-content-center ${styles.title}`}>
+        <h1 className="font-weight-bold text-wrap">{title}</h1>
+      </Row>
+      <Row className={`align-items-center ${styles.menu}`}>
+        <Col md='1' xs='1' className="text-center">
+          <Icon path={mdiCalendarClock} size={1} />
+        </Col>
+        <Col className="font-weight-bold text-wrap">
+          Some text
+        </Col>
+      </Row>
     </Col>
   </Row>
 
-  // </Container>
 )
 
 SideBar.propTypes = {
