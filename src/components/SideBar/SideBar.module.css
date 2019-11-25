@@ -1,16 +1,32 @@
 .sideBar {
   height: 100%;
-  margin: 5px;
+  background-color: #061750;
+  color: aliceblue;
 }
 
 .title {
-  height: 30%;
+  height: 20%;
 }
 
-.title h1 {
+/* .menu {
+  margin-bottom: 5px;
+} */
+
+.title h2 {
   text-align: center;
+  margin-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
-.menu {
-  margin-top: 20px;
+.menuItems {
+  padding: 10px;
+  /* margin-top: 1px; */
+}
+.menuItems:hover {
+  background-color: #3d43d6;
+}
+
+.active {
+  background-color: #3d43d6;
 }

@@ -2,14 +2,16 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 
+import { mdiCalendarClock, mdiSettings, mdiContentCut, mdiClipboardAccount, mdiCashMultiple } from '@mdi/js'
+
 import SideBar from './SideBar'
 
 export const links = [
-  { label: 'Agendamiento' },
-  { label: 'Servicios' },
-  { label: 'Operadores' },
-  { label: 'Clientes' },
-  { label: 'Pagos' }
+  { label: 'Agendamiento', icon: mdiCalendarClock },
+  { label: 'Servicios', icon: mdiSettings },
+  { label: 'Operadores', icon: mdiContentCut },
+  { label: 'Clientes', icon: mdiClipboardAccount },
+  { label: 'Pagos', icon: mdiCashMultiple }
 ]
 
 export const actions = {

@@ -2,11 +2,22 @@
   /* So 100% means 100% */
   box-sizing: border-box;
 }
-html, body {
+html,
+body {
   height: 100%;
-  background-color: #ccc;
+  background-color: #f8f8f8;
 }
 
 #root {
   height: 100%;
+}
+
+.btn-theme {
+  background-color: #061750;
+  color: aliceblue;
+}
+
+.btn-theme:hover {
+  background-color: #3d43d6;
+  color: aliceblue;
 }

@@ -1,0 +1,17 @@
+.loginForm {
+  height: 50%;
+  margin: 10px;
+}
+
+.title {
+  background-color: #061750;
+  color: aliceblue;
+  border-radius: .25rem 0rem 0rem .25rem;
+}
+
+.form {
+  background-color: #DBC2CF;
+  color: #061750;
+  border-radius: 0rem .25rem 0.25rem 0rem;
+  padding: 10px;
+}
